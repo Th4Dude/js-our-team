@@ -1,8 +1,22 @@
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(232, 204, 167);
 }
 
 .color-lightblue{
-    background-color: rgb(144, 223, 236);
+    background-color: rgb(55, 62, 63);
+    color: white;
+}
+
+.color-darklight{
+    background-color: rgb(55, 62, 63);
+    color: white;
+}
+
+.border-px{
+    border: 8px solid rgb(55, 62, 63);
+}
+
+.padding-25{
+    padding: 1.5625rem;
 }
