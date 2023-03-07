@@ -9,9 +9,9 @@ const membriDelTeam =
         foto: 'wayne-barnett-founder-ceo.jpg'
     },
     {
-        nome: 'Wayne Barnett',
-        ruolo: 'Founfed & CEO',
-        foto: 'wayne-barnett-founder-ceo.jpg'
+        nome: 'Angela Caroll',
+        ruolo: 'Chief Editor',
+        foto: 'angela-caroll-chief-editor.jpg',
     },
     {
         nome: 'Walter Gordon',
@@ -76,4 +76,20 @@ const userTeamSei = {
 
 /* variabili per ogni user */
 
+
 console.log(membriDelTeam);
+
+/* ciclo per attaccare i dati */
+
+const utenti = document.querySelectorAll('.jselement');
+
+console.log(utenti);
+
+for( let i = 0 ; i < membriDelTeam.length; i++){
+    const datiUtente = utenti[i];
+    const nome = membriDelTeam[i].nome;
+    const ruolo = membriDelTeam[i].ruolo;
+    utenti[i].innerHTML = (nome + '<br>' + ruolo);
+}
+
+/* ciclo per attaccare i dati */
